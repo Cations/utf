@@ -127,7 +127,7 @@ Copyright (c) 2016 [Cations][35] ([Pablo A. Mayobre][36])
 [4]:http://luajit.org/luajit.html
 [5]:https://github.com/Cations/lutf8
 [6]:http://luarocks.org/modules/positive07/lutf8
-
+[7]:https://github.com/Cations/utf.lua/blob/master/luautf.lua
 
 [8]:http://www.lua.org/manual/5.3/manual.html#6.4
 [9]:http://www.lua.org/manual/5.3/manual.html#6.5
@@ -158,7 +158,7 @@ Copyright (c) 2016 [Cations][35] ([Pablo A. Mayobre][36])
 
 [32]:https://github.com/markandgo
 [33]:https://gist.github.com/markandgo/5776124
-
+[34]:https://github.com/Cations/utf.lua/blob/master/LICENSE
 
 [35]:https://www.github.com/Cations
 [36]:https://www.github.com/Positive07
