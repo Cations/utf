@@ -1,0 +1,3 @@
+[submodule "plutfo"]
+	path = plutfo
+	url = git@github.com:Cations/plutfo.git

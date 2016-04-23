@@ -1,7 +1,7 @@
 local utf = {
-	_VERSION		= "utf.lua 0.1.0",
-	_DESCRIPTION	= "A Lua String Library compatible library which supports UTF-8",
-	_URL			= "https://www.github.com/Cations/utf.lua",
+	_VERSION		= "utf 0.1.0",
+	_DESCRIPTION	= "A library that implements functions similar to Lua String Library but with support for UTF-8",
+	_URL			= "https://www.github.com/Cations/utf",
 	_AUTHOR			= "Cations",
 	_LICENSE		= [[
 		The MIT License (MIT)
@@ -32,7 +32,7 @@ local string, table, math = require "string" require "table", require "math"
 local unpack = unpack or table.unpack
 
 local ok, u --UTF-8 library (Lua 5.3 compatible)
-for _, name in ipairs{"utf8", "lutf8", ... ".luautf"} do
+for _, name in ipairs{"utf8", "lutf8", "plutfo", ... ".plutfo"} do
 	ok, u = pcall(require, name)
 	if ok then break end
 end
